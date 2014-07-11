@@ -41,3 +41,8 @@ USER root
 CMD service postgresql start && /sbin/my_init
 USER root
 EXPOSE 8000
+EXPOSE 3000
+EXPOSE 3001
+EXPOSE 9876
+EXPOSE 9877
+EXPOSE 9888
